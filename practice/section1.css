@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background: gray;
+}
+::-webkit-scrollbar-track{
+    background-color: antiquewhite;
+}
+::-webkit-scrollbar-thumb{
+    
+    background-color: red;
+}
+
+.navbar{
+    display: flex;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 0%;
+    z-index: 3;
+   
+}
+.logo
+{
+    /* border: 2px solid black; */
+    position: relative;
+   
+    left: 12%;
+    z-index: 2;
+}
+img{
+    height: 76px;
+    width: 79px;
+}
+
+.list
+{
+    /* border: 2px solid green; */
+    display: flex;
+    position: absolute;
+    top: 28%;
+    right: 4%;
+    list-style: none;
+   color: white;
+   z-index: 2;
+}
+.item
+{
+    font-size: 1.5rem;
+    margin: -4px 12px;
+    padding: 11px 8px;
+}

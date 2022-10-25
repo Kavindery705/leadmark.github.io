@@ -1,0 +1,430 @@
+.section5
+{
+    
+    position: relative;
+    /* border: 2px solid #000; */
+    height: 840px;
+}
+.head{
+    /* border: 2px solid red; */
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.head h1{
+    font-size: 2.5rem;
+}
+.head p{
+    /* border: 2px solid red; */
+    font-size: 1rem;
+}
+.simple_bar{
+    position: relative;
+    /* border: 2px solid red; */
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.simple_bar ul
+{
+    
+    /* border: 2px solid green; */
+    width: 500px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 24px;
+}
+.num{
+    list-style: none;
+    margin: 12px 12px;
+}
+.num a{
+    text-decoration: none;
+    color: black;
+}
+.images
+{
+    /* border: 2px solid red; */
+    position: relative;
+    top: 60px;
+}
+.img{
+    position: relative;
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 600px;
+    top:  10%;
+    left: 9%;
+    overflow: hidden;
+   
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.para::before{
+    content: "";
+    background: url('web-1.jpg');
+    background-color: orange;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    opacity:0.6;
+    
+    transition:all 0.18s ease-in;
+}
+.para h1 {
+
+    position: absolute;
+    top: 40%;
+    left:100%;
+    color: white;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in;
+}
+.para .p {
+
+    position: absolute;
+    top: 50%;
+    left:100%;
+    color: aqua;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in;
+}
+.para .p1 {
+
+    position: absolute;
+    top: 54%;
+    left:100%;
+    color: aqua;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in-out;
+
+}
+.img:hover .para .p{
+    opacity: 1;
+    left: 17%;
+
+}
+.img:hover .para .p1{
+    opacity: 1;
+    left: 27%;
+   
+}
+.img:hover .para h1{
+    opacity: 1;
+    left: 44%;
+}
+.img:hover .para::after{
+left: 0;
+opacity: 1;
+}
+.img_1{
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 300px;
+    top:  0%;
+    left: 34%;
+    overflow: hidden;
+}
+.img_1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.para::after{
+    content: "";
+    background: transparent;
+    background-color: orange;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    opacity:1;
+    transition:all 0.18s ease-in;
+}
+.para h1 {
+
+    position: absolute;
+    top: 40%;
+    left:100%;
+    color: white;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in;
+}
+.para .p {
+
+    position: absolute;
+    top: 50%;
+    left:100%;
+    color: aqua;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in;
+}
+.para .p1 {
+
+    position: absolute;
+    top: 54%;
+    left:100%;
+    color: aqua;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in-out;
+
+}
+.img_1:hover .para .p{
+    opacity: 1;
+    left: 17%;
+
+}
+.img_1:hover .para .p1{
+    opacity: 1;
+    left: 27%;
+   
+}
+.img_1:hover .para h1{
+    opacity: 1;
+    left: 44%;
+}
+.img_1:hover .para::after{
+left: 0;
+opacity: 1;
+}
+.img_2{
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 300px;
+    top:  0%;
+    left: 60%;
+    overflow: hidden;
+}
+.img_2 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.para::after{
+    content: "";
+    background: transparent;
+    background-color: orange;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    opacity:1;
+    transition:all 0.18s ease-in;
+}
+.para h1 {
+
+    position: absolute;
+    top: 40%;
+    left:100%;
+    color: white;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in;
+}
+.para .p {
+
+    position: absolute;
+    top: 50%;
+    left:100%;
+    color: aqua;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in;
+}
+.para .p1 {
+    
+    position: absolute;
+    top: 54%;
+    left:100%;
+    color: aqua;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in-out;
+    
+}
+.img_2:hover .para .p{
+    opacity: 1;
+    left: 17%;
+    
+}
+.img_2:hover .para .p1{
+    opacity: 1;
+    left: 27%;
+   
+}
+.img_2:hover .para h1{
+    opacity: 1;
+    left: 44%;
+}
+.img_2:hover .para::after{
+    left: 0;
+    opacity: 1;
+}
+.img_3{
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 250px;
+    top: 55%;
+    left: 34%;
+    overflow: hidden;
+}
+.img_3 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.para::after{
+    content: "";
+    background: transparent;
+    background-color: orange;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    opacity:1;
+    transition:all 0.18s ease-in;
+}
+.para h1 {
+
+    position: absolute;
+    top: 40%;
+    left:100%;
+    color: white;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in;
+}
+.para .p {
+
+    position: absolute;
+    top: 50%;
+    left:100%;
+    color: aqua;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in;
+}
+.para .p1 {
+
+    position: absolute;
+    top: 54%;
+    left:100%;
+    color: aqua;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in-out;
+
+}
+.img_3:hover .para .p{
+    opacity: 1;
+    left: 17%;
+
+}
+.img_3:hover .para .p1{
+    opacity: 1;
+    left: 27%;
+   
+}
+.img_3:hover .para h1{
+    opacity: 1;
+    left: 44%;
+}
+.img_3:hover .para::after{
+left: 0;
+opacity: 1;
+}
+.img_4{
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 250px;
+    top:  55%;
+    left: 60%;
+    overflow: hidden;
+}
+.img_4 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.para::after{
+    content: "";
+    background: transparent;
+    background-color: orange;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    opacity:1;
+    transition:all 0.18s ease-in;
+}
+.para h1 {
+
+    position: absolute;
+    top: 40%;
+    left:100%;
+    color: white;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in;
+}
+.para .p {
+
+    position: absolute;
+    top: 50%;
+    left:100%;
+    color: aqua;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in;
+}
+.para .p1 {
+
+    position: absolute;
+    top: 54%;
+    left:100%;
+    color: aqua;
+    opacity: 0;
+    z-index: 1;
+    transition:all 0.18s ease-in-out;
+
+}
+.img_3:hover .para .p{
+    opacity: 1;
+    left: 17%;
+
+}
+.img_4:hover .para .p1{
+    opacity: 1;
+    left: 27%;
+   
+}
+.img_4:hover .para h1{
+    opacity: 1;
+    left: 44%;
+}
+.img_4:hover .para::after{
+left: 0;
+opacity: 1;
+}
